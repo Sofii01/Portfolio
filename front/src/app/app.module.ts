@@ -9,6 +9,7 @@ import { LayoutComponent } from './shared/layout/layout.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatSidenavModule} from  '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { ProyectComponent } from './proyect/proyect.component';
 import { SpecializationComponent } from './specialization/specialization.component'
@@ -27,7 +28,8 @@ import { SpecializationComponent } from './specialization/specialization.compone
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
