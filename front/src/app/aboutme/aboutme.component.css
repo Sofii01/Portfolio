@@ -1,0 +1,95 @@
+/* Mobile First Styles */
+.intro {
+    padding: 1em;
+    padding-top: 5em;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    color: #F0F0F0;
+}
+
+.span-hola {
+    font-size: 0.67em;
+}
+
+.title-gradient {
+    font-size: 2.17em;
+    background: radial-gradient(circle, #9845E8 0%, #33D2FF 55%, #DD5789 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0.5em 0;
+}
+
+.text-about {
+    font-size: 0.87em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+.say-hi a {
+    display: inline-block;
+    font-size: 0.67em;
+    color: #33D2FF;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border: 2px solid #33D2FF;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.say-hi a:hover {
+    background-color: #33D2FF;
+    color: #F0F0F0;
+}
+
+.say-hi img {
+    margin-left: 0.5em;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+}
+
+/* Styles for Screens 425px and Up */
+@media screen and (min-width: 425px) {
+    .title-gradient {
+        font-size: 2.5em;
+    }
+
+    .text-about {
+        font-size: 1.1em;
+    }
+
+    .say-hi a {
+        font-size: 1.1em;
+    }
+
+    .say-hi img {
+        width: 1.1em;
+        height: 1.1em;
+    }
+}
+
+/* Styles for Screens 768px and Up */
+@media screen and (min-width: 768px) {
+    .intro {
+        max-width: 800px;
+        min-width:600px;
+        margin: 0 auto;
+    }
+
+    .title-gradient {
+        font-size: 3em;
+    }
+
+    .text-about {
+        font-size: 1.2em;
+    }
+
+    .say-hi a {
+        font-size: 1.2em;
+    }
+
+    .say-hi img {
+        width: 1.2em;
+        height: 1.2em;
+    }
+}

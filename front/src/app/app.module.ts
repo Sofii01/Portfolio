@@ -8,13 +8,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutComponent } from './shared/layout/layout.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatSidenavModule} from  '@angular/material/sidenav';
-import {MatButtonModule} from '@angular/material/button'
+import {MatButtonModule} from '@angular/material/button';
+import { AboutmeComponent } from './aboutme/aboutme.component';
+import { ProyectComponent } from './proyect/proyect.component';
+import { SpecializationComponent } from './specialization/specialization.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutmeComponent,
+    ProyectComponent,
+    SpecializationComponent
   ],
   imports: [
     BrowserModule,
