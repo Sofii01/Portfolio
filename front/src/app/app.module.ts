@@ -12,7 +12,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { ProyectComponent } from './proyect/proyect.component';
-import { SpecializationComponent } from './specialization/specialization.component'
+import { SpecializationComponent } from './specialization/specialization.component';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SpecializationComponent } from './specialization/specialization.compone
     NavbarComponent,
     AboutmeComponent,
     ProyectComponent,
-    SpecializationComponent
+    SpecializationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

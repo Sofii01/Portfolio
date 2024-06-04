@@ -4,11 +4,12 @@
     padding-top: 5em;
     text-align: left;
     font-family: "Inter", sans-serif;
-    color: #F0F0F0;
+    
 }
 
 .span-hola {
     font-size: 0.67em;
+    color: #C4C4C4;
 }
 
 .title-gradient {
@@ -23,6 +24,7 @@
     font-size: 0.87em;
     line-height: 1.5em;
     margin: 1em 0;
+    color: #C4C4C4;
 }
 
 .say-hi a {
@@ -73,7 +75,8 @@
     .intro {
         max-width: 800px;
         min-width:600px;
-        margin: 0 auto;
+        margin: 0 10%;
+
     }
 
     .title-gradient {
@@ -91,5 +94,11 @@
     .say-hi img {
         width: 1.2em;
         height: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro{
+        max-width: 80%;
     }
 }

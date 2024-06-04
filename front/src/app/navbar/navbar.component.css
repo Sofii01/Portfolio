@@ -5,7 +5,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #F0F0F0;
+    color: #C4C4C4;
 }
 
 .mat-sidenav {
@@ -14,7 +14,7 @@ a {
 }
 
 mat-sidenav-container {
-    color: #F0F0F0;
+    color: #C4C4C4;
     background-color: transparent;
 }
 
@@ -38,10 +38,10 @@ mat-sidenav-content {
 
 .nav_button {
     background-color: transparent;
-    color: #F0F0F0;
+    color: #C4C4C4;
     background-image: url("../../assets/img/menu.png");
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 40%;
     padding-left: 1em;
 }
 
