@@ -11,16 +11,19 @@ a {
 .mat-sidenav {
     background-color: transparent !important; /* Fondo transparente */
     color: #F0F0F0; /* Letras de color blanco */
+    
 }
 
 mat-sidenav-container {
     color: #C4C4C4;
     background-color: transparent;
+    
 }
 
 mat-sidenav-content {
     padding-left: 1em;
     padding-top: 1em;
+    
 }
 
 .nav {
@@ -34,6 +37,7 @@ mat-sidenav-content {
 
 .nav_ul {
     gap: 1em;
+    
 }
 
 .nav_button {
@@ -59,6 +63,7 @@ mat-sidenav-content {
 
     .desktop-nav {
         display: flex; /* Mostrar el navbar en línea */
+        box-shadow: 0 3px 10px rgba(255, 247, 247, 0.2);
     }
 
     .mat-sidenav {
@@ -72,6 +77,7 @@ mat-sidenav-content {
     bottom: 0;
     left: 0;
     right: 0;
+   
 }
 
 .example-events {

@@ -1,7 +1,7 @@
 <mat-sidenav-container class="example-container">
   <mat-sidenav #sidenav class="mat-sidenav">
       <ul class="nav_ul nav">
-          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Sobre mi</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Sobre mi</a></li> -->
           <li class="nav-item"><a class="nav-link" aria-current="page" href="#Proyects">Proyectos</a></li>
           <li class="nav-item"><a class="nav-link" aria-current="page" href="#contact">Contacto</a></li>
       </ul>
@@ -10,7 +10,7 @@
   <mat-sidenav-content>
       <button mat-button (click)="sidenav.toggle()" class="nav_button" *ngIf="isMobile"></button>
       <ul class="nav_ul nav desktop-nav" *ngIf="!isMobile">
-          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Sobre mi</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Sobre mi</a></li> -->
           <li class="nav-item"><a class="nav-link" aria-current="page" href="#Proyects">Proyectos</a></li>
           <li class="nav-item"><a class="nav-link" aria-current="page" href="#contact">Contacto</a></li>
       </ul>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-proyect',
@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./proyect.component.css']
 })
 export class ProyectComponent {
-
   projects = [
     {
       img: "../../assets/img/CapturaLoginDes.PNG",
@@ -26,10 +25,30 @@ export class ProyectComponent {
       skills: ["Java", "React", "Spring Boot",],
       expanded: false
     },
-
   ];
 
+  constructor() {
+    this.checkScreenWidth();
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.checkScreenWidth();
+  }
+
+  checkScreenWidth() {
+    const screenWidth = window.innerWidth;
+    if (screenWidth > 1024) {
+      this.projects.forEach(project => project.expanded = true);
+    } else {
+      this.projects.forEach(project => project.expanded = false);
+    }
+  }
+
   toggleExpand(project: any) {
-    project.expanded = !project.expanded;
+    const screenWidth = window.innerWidth;
+    if (screenWidth <= 1024) {
+      project.expanded = !project.expanded;
+    }
   }
 }
