@@ -38,7 +38,7 @@ export class ProyectComponent {
 
   checkScreenWidth() {
     const screenWidth = window.innerWidth;
-    if (screenWidth > 1024) {
+    if (screenWidth > 768) {
       this.projects.forEach(project => project.expanded = true);
     } else {
       this.projects.forEach(project => project.expanded = false);
