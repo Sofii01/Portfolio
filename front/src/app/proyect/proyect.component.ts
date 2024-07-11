@@ -25,6 +25,15 @@ export class ProyectComponent {
       skills: ["Java", "React", "Spring Boot",],
       expanded: false
     },
+    {
+      img: "",
+      github: "https://github.com/Sofii01/Conversor",
+      deploy: "",
+      title: "Conversor",
+      description: "Conversor de moneda y temperatura. Utilice JOptionPane y tiene un menu principal para elegir tipo de conversion a realizar. Luego se ingresa un valor y se elige los tipos de conversiones que se puede utilizar.",
+      skills: ["Java"],
+      expanded: false
+    }
   ];
 
   constructor() {
