@@ -26,14 +26,14 @@ export class ProyectComponent {
       expanded: false
     },
     {
-      img: "",
-      github: "https://github.com/Sofii01/Conversor",
+      img: "../../assets/img/image.png",
+      github: "https://github.com/No-Country-simulation/c20-23-m-java-react.DeliMovil",
       deploy: "",
-      title: "Conversor",
-      description: "Conversor de moneda y temperatura. Utilice JOptionPane y tiene un menu principal para elegir tipo de conversion a realizar. Luego se ingresa un valor y se elige los tipos de conversiones que se puede utilizar.",
-      skills: ["Java"],
-      expanded: false
+      title: "DeliMovil",
+      description: "DeliMóvil es una plataforma integral y altamente segura diseñada para transformar la experiencia de disfrutar comida local. Nuestro innovador sistema está orientado a conectar a los amantes de la comida, restaurantes y repartidores de manera eficiente y conveniente.",
+      skills: ["Java", "Spring Boot", "Spring Data Jpa", "React", "Material UI", "Swagger"]
     }
+    
   ];
 
   constructor() {
